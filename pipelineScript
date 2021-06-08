@@ -1,0 +1,8 @@
+node{
+    stage ('Colne'){
+        git 'https://github.com/andradragusanu/maven-simple.git'
+    }
+    stage ('Print'){
+        sh 'cat README.md'
+    }
+ }
